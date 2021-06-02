@@ -3,16 +3,16 @@
 exports[`RepoDetails should render RepoDetails component correctly 1`] = `
 Array [
   <div
-    className="ucard__avatar"
+    className="card__avatar"
   >
     <img
-      className="ucard__avatar__img"
+      className="card__avatar__img"
       draggable="false"
       src="https://avatars.githubusercontent.com/u/80134?v=4"
     />
   </div>,
   <div
-    className="ucard__name"
+    className="card__name"
   >
     <h2>
       jfcmacro/ewe
@@ -22,10 +22,10 @@ Array [
     className="flex"
   >
     <span
-      className="ucard__text"
+      className="card__text"
     >
       <span
-        className="ucard__label"
+        className="card__label"
       >
         Description
       </span>
@@ -36,10 +36,10 @@ Array [
     className="flex"
   >
     <span
-      className="ucard__text"
+      className="card__text"
     >
       <span
-        className="ucard__label"
+        className="card__label"
       >
         Forks
       </span>
@@ -50,10 +50,10 @@ Array [
     className="flex"
   >
     <span
-      className="ucard__text"
+      className="card__text"
     >
       <span
-        className="ucard__label"
+        className="card__label"
       >
         Watchers
       </span>
@@ -64,10 +64,10 @@ Array [
     className="flex"
   >
     <span
-      className="ucard__text"
+      className="card__text"
     >
       <span
-        className="ucard__label"
+        className="card__label"
       >
         Open Issues
       </span>
@@ -78,10 +78,10 @@ Array [
     className="flex"
   >
     <span
-      className="ucard__text"
+      className="card__text"
     >
       <span
-        className="ucard__label"
+        className="card__label"
       >
         License
       </span>
@@ -93,10 +93,10 @@ Array [
     onClick={[Function]}
   >
     <span
-      className="ucard__text"
+      className="card__text"
     >
       <i
-        className="fa fa-arrow-circle-right ucard__icon"
+        className="fa fa-arrow-circle-right card__icon"
       />
     </span>
   </div>,

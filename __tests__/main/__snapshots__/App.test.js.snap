@@ -35,7 +35,7 @@ Array [
           >
             <input
               onChange={[Function]}
-              placeholder="Search repo name"
+              placeholder="Search repositories"
               type="search"
             />
           </div>
