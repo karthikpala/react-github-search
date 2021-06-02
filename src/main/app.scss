@@ -1,0 +1,58 @@
+@import './variables';
+
+/* common and general styles to be used across the page*/
+body {
+  margin: 0;
+}
+
+* {
+  //specifying that padding and border should not include in width and height
+  box-sizing: border-box;
+  //Fallbacks to second font if the browser does not support the first
+  font-family: Sentinel SSm A,Sentinel SSm B,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol, FontAwesome;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--center {
+  justify-content: center;
+  align-items: center;
+}
+
+.flex--left {
+  justify-content: left;
+  align-items: center;
+}
+
+/* app component related css with media queries*/
+.app-header {
+  position: sticky;
+  height: 100px;
+  background-color: $primary-color;
+
+  &__title {
+    color: white;
+  }
+}
+
+.app-main__content {
+  position: relative;
+}
+
+input[type=search] { 
+	letter-spacing: 2px;        
+	word-spacing: 2px;
+  text-shadow: 0 0 2px $neutral-lighter;           
+}
+
+@media screen and (max-width: $breakpoint-tablet) {
+  .app-header{
+    height: 60px;
+  }
+}
+
+@import '../components/RepoDetails/repodetails.scss';
+@import '../components/RepoList/repolist.scss';
+@import '../components/Common/SearchBox/searchbox.scss';

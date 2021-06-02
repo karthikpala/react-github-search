@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render App component correctly 1`] = `
+Array [
+  <header
+    className="flex flex--center app-header"
+  >
+    <h2
+      className="app-header__title"
+    >
+      <i
+        className="fa fa-user-circle-o"
+      />
+       
+      Github Repo Search
+    </h2>
+  </header>,
+  <main
+    className="app-main"
+  >
+    <div
+      className="app-main__content"
+    >
+      <div
+        className="options"
+      >
+        <div
+          className="options__left flex flex--left"
+        />
+        <div
+          className="flex flex--center"
+        >
+          <div
+            className="wrapper"
+          >
+            <input
+              onChange={[Function]}
+              placeholder="Search repo name"
+              type="search"
+            />
+          </div>
+        </div>
+        <div
+          className="options__right flex"
+        />
+      </div>
+      <div
+        className="flex flex--center empty"
+      >
+        <i
+          className="empty__icon fa fa-search"
+        />
+        <p>
+          Start searching by entering repo name 
+        </p>
+      </div>
+      <div
+        className="flex flex--center page-loading"
+      >
+        <span />
+      </div>
+    </div>
+  </main>,
+]
+`;
